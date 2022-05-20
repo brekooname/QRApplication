@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QRApplication.QRPage"
+             Title="QRPage">
+    <StackLayout>
+        <Label
+            x:Name="QRCodeBarcode"
+            FontFamily="CCodeQR"
+            TextColor="Purple"
+            FontSize="6"
+            Margin="50"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
+    </StackLayout>
+</ContentPage>
